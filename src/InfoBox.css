@@ -1,0 +1,33 @@
+.infBox {
+  flex: 1;
+}
+
+.infBox:not(:last-child) {
+  margin-right: 10px;
+}
+
+.infBox--selected {
+  border-top: 10px solid rgb(147, 219, 39);
+}
+
+.infBox--red {
+  border-color: rgb(247, 48, 48);
+}
+
+.infBox__cases--green {
+  color: rgb(112, 221, 112) !important;
+}
+
+.infBox__cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.infBox__total {
+  color: #5e6368;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
